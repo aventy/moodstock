@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'HelveticaNeueCyr-Bold';
+  src:  url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr-Medium';
+  src:  url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+}
+
+
+
+.company {
+	text-shadow: 0 1px 0 $white;
+	font-family: $secondary-font-bold;
+	font-size: 1.125em;
+	font-weight: 700;
+}
+.goodsItem {
+	text-shadow: 0 1px 0 $white;
+	color: $dark-dark-grey;
+	font-family: $secondary-font-bold;
+	font-size: 0.75em;
+	font-weight: 700;
+}
+label[for="remember"] {
+	color: $dark-dark-grey;
+	font-family: $secondary-font-medium;
+	font-size: 0.85em;
+	font-weight: 500;
+}
+
+input[type="submit"] {
+	color: $white;
+	font-family: $secondary-font-bold;
+	font-size: 1.0625em;
+	font-weight: 700;
+}

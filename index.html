@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>MoodStock - Checkout</title>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+  <section class="l-modal l-column l-centered">
+    <div class="modal-header l-column l-centered">
+      <button class="heading-btnExit"></button>
+      <h4 class="company">Moodstocks</h4>
+      <div class="goodsItem">10K Images - Yearly ($4,668)</div>
+    </div>
+    <form action="#" class="checkoutForm l-column l-centered" autocomplete="on" method="post">
+      <input type="email" class="checkoutForm-email icon-position" placeholder="Email" required>
+      <input type="number" class="checkoutForm-card icon-position" placeholder="Card  number" required pattern="[0-9]{16}">
+      <div class="merge">
+        <input type="number" class="checkoutForm-year icon-position" placeholder="MM/YY" required pattern="d[0-9]{2}\/\d[0-9]{2}">
+        <input type="password" class="checkoutForm-cvc icon-position" placeholder="CVC" required pattern="[0-9]{3}">
+      </div>
+      <div class="merge agree">
+        <input id="remember" type="checkbox" class="checkoutForm-rememberCard">
+        <label for="remember">Remember me everywhere</label>
+      </div>
+        <input type="submit" class="checkoutForm-checkout" value="Pay $4,668">
+    </form>
+  </section>
+</body>
+</html>
